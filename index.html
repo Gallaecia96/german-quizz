@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="open-select" onclick="openSelect()">Select topic</button>
+    <section id="select_topic">
+        <button class="close-select" onclick="closeSelect()">Back to test</button>
+
+        <div class="option-block" id="Parte-especifica">
+            <h2>Basics German to English</h2>
+            <button onclick="theme_is(food_g_e)">Food</button>
+        </div>
+
+    </section>
+    
+    <div class="quiz-container">
+        <h1>German quizz</h1>
+        <p id="question">Go learn something...</p>
+        <div class="options" id="options-container">
+            
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
