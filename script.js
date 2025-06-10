@@ -13,6 +13,14 @@ const template = [
     },
 ];
 
+const make_plural_1 = [
+    {
+        question: "das Ei",
+        answers: ["das Eier", "Eier"]
+    },
+];
+
+
 const food_g_e = [
     {
         question: "das Abendessen",
