@@ -1,11 +1,3 @@
-const pregunta_escrita = [
-    {
-        question: "Pregunta",
-        answer: "Respuesta",
-        answer2: "respuesta"
-    },
-  ];
-
 const template = [
     {
         question: "Pregunta",
@@ -13,13 +5,87 @@ const template = [
     },
 ];
 
-const make_plural_1 = [
+const numbers = [
     {
-        question: "das Ei",
-        answers: ["das Eier", "Eier"]
+        question: "null",
+        answers: ["0"]
+    },
+    {
+        question: "eins",
+        answers: ["1"]
+    },
+    {
+        question: "zwei",
+        answers: ["2"]
+    },
+    {
+        question: "drei",
+        answers: ["3"]
+    },
+    {
+        question: "vier",
+        answers: ["4"]
+    },
+    {
+        question: "fünf",
+        answers: ["5"]
+    },
+    {
+        question: "sechs",
+        answers: ["6"]
+    },
+    {
+        question: "sieben",
+        answers: ["7"]
+    },
+    {
+        question: "acht",
+        answers: ["8"]
+    },
+    {
+        question: "neun",
+        answers: ["9"]
+    },
+    {
+        question: "zehn",
+        answers: ["10"]
     },
 ];
 
+const complex_numbers = [
+    {
+        question: "vierundzwanzig",
+        answers: ["24"]
+    },
+    {
+        question: "siebenunddreiβig",
+        answers: ["37"]
+    },
+    {
+        question: "zweiundvierzig",
+        answers: ["42"]
+    },
+    {
+        question: "sechsundfünfzig",
+        answers: ["56"]
+    },
+    {
+        question: "einundsechzig",
+        answers: ["61"]
+    },
+    {
+        question: "dreiundsiebzig",
+        answers: ["73"]
+    },
+    {
+        question: "fünfundachtzig",
+        answers: ["85"]
+    },
+    {
+        question: "achtundneunzig",
+        answers: ["98"]
+    },
+];
 
 const food_g_e = [
     {
